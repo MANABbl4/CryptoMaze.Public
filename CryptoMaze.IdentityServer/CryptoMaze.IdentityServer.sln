@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoMaze.IdentityServer", "CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.csproj", "{2884322B-C67A-4100-AD29-1798953C9826}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1DE88A1A-9087-4646-87A7-FF44E6340877} = {1DE88A1A-9087-4646-87A7-FF44E6340877}
+		{A270491A-246B-4D78-867C-B32DF47F3E3E} = {A270491A-246B-4D78-867C-B32DF47F3E3E}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoMaze.IdentityServer.DAL", "CryptoMaze.IdentityServer.DAL\CryptoMaze.IdentityServer.DAL.csproj", "{8008316E-FAAA-47D2-A6D2-5F5D4E64A753}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService", "EmailService\EmailService.csproj", "{A270491A-246B-4D78-867C-B32DF47F3E3E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoMaze.IdentityServer.BLL", "CryptoMaze.IdentityServer.BLL\CryptoMaze.IdentityServer.BLL.csproj", "{0318B9F9-434A-4A3F-ABE6-91726D6E7C66}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1DE88A1A-9087-4646-87A7-FF44E6340877} = {1DE88A1A-9087-4646-87A7-FF44E6340877}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoMaze.ClientServer", "..\CryptoMaze\CryptoMaze.ClientServer\CryptoMaze.ClientServer.csproj", "{1DE88A1A-9087-4646-87A7-FF44E6340877}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2884322B-C67A-4100-AD29-1798953C9826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2884322B-C67A-4100-AD29-1798953C9826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2884322B-C67A-4100-AD29-1798953C9826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2884322B-C67A-4100-AD29-1798953C9826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8008316E-FAAA-47D2-A6D2-5F5D4E64A753}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8008316E-FAAA-47D2-A6D2-5F5D4E64A753}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8008316E-FAAA-47D2-A6D2-5F5D4E64A753}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8008316E-FAAA-47D2-A6D2-5F5D4E64A753}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A270491A-246B-4D78-867C-B32DF47F3E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A270491A-246B-4D78-867C-B32DF47F3E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A270491A-246B-4D78-867C-B32DF47F3E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A270491A-246B-4D78-867C-B32DF47F3E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0318B9F9-434A-4A3F-ABE6-91726D6E7C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0318B9F9-434A-4A3F-ABE6-91726D6E7C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0318B9F9-434A-4A3F-ABE6-91726D6E7C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0318B9F9-434A-4A3F-ABE6-91726D6E7C66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE88A1A-9087-4646-87A7-FF44E6340877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE88A1A-9087-4646-87A7-FF44E6340877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE88A1A-9087-4646-87A7-FF44E6340877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE88A1A-9087-4646-87A7-FF44E6340877}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9018E8D8-F856-4BE4-89C5-5E429DF52141}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,8 @@
+/.vs/
+/bin/
+/obj/
+.vsidx
+.v2
+.dll
+.pdb
+.cache

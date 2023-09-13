@@ -1,0 +1,10 @@
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\bin\Release\netcoreapp3.1\EmailService.deps.json
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\bin\Release\netcoreapp3.1\EmailService.dll
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\bin\Release\netcoreapp3.1\EmailService.pdb
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\obj\Release\netcoreapp3.1\EmailService.csproj.AssemblyReference.cache
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\obj\Release\netcoreapp3.1\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\obj\Release\netcoreapp3.1\EmailService.AssemblyInfoInputs.cache
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\obj\Release\netcoreapp3.1\EmailService.AssemblyInfo.cs
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\obj\Release\netcoreapp3.1\EmailService.csproj.CoreCompileInputs.cache
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\obj\Release\netcoreapp3.1\EmailService.dll
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\obj\Release\netcoreapp3.1\EmailService.pdb

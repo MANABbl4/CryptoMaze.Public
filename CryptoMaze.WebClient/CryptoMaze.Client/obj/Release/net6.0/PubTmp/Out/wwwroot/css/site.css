@@ -1,0 +1,48 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  min-height: 100%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.left-side {
+    flex: 1;
+    background: url('../background.png');
+    background-size: cover;
+    background-position: right;
+    height: 100vh;
+}
+
+.right-side {
+    flex: 1;
+    background: url('../background.png');
+    background-size: cover;
+    background-position: left;
+    height: 100vh;
+}
+
+.game-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.unity-container {
+    flex: 1;
+    background: url('../background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}

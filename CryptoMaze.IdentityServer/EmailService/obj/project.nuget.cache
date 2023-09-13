@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "zZcbUmwEVHPiOEofHZWXdBvgG4q8qKtOr5jmdmdhwjIoQhQnWlG958sJ1wj0BX/1QmHXQvdRFp+qT/iPo5Y3SQ==",
+  "success": true,
+  "projectFilePath": "C:\\Manab\\CryptoMaze\\CryptoMaze.IdentityServer\\EmailService\\EmailService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\mailkit\\3.3.0\\mailkit.3.3.0.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\mimekit\\3.4.0\\mimekit.3.4.0.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\system.io.pipelines\\5.0.2\\system.io.pipelines.5.0.2.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\system.security.cryptography.cng\\5.0.0\\system.security.cryptography.cng.5.0.0.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

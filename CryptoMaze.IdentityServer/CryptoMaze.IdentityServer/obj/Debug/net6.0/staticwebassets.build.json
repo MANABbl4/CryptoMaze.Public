@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HLTR0z7OOnJqS/4eIT6smJ9qSpqDTsW/lPbYrnevzmA=",
+  "Source": "CryptoMaze.IdentityServer",
+  "BasePath": "_content/CryptoMaze.IdentityServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

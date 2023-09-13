@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "OnwinQsNxxyxPz4I+hHuCqQkfoPjpz+rggFhpR1OYmgS5JhHlJzXv2ojVXVS2G7t8b+UyYl0hBQXNwc+42JlEQ==",
+  "success": true,
+  "projectFilePath": "C:\\Manab\\CryptoMaze\\CryptoMaze.Client\\CryptoMaze.Client\\CryptoMaze.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\Vitaly.Kachan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CryptoMaze.Client/1.0.0": {
+        "runtime": {
+          "CryptoMaze.Client.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CryptoMaze.Client/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

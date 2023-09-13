@@ -1,0 +1,161 @@
+2023-04-28 12:49:10,461 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-04-28 12:49:10,474 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-04-28 12:49:10,482 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-28 12:49:10,485 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-28 12:49:10,487 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-04-28 12:49:51,959 [5] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at CryptoMaze.IdentityServer.Program.<>c__DisplayClass0_0.<Main>b__0(JwtBearerOptions options) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\Program.cs:line 31
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-28 12:51:00,564 [13] ERROR Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware - An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at System.Text.UTF8Encoding.UTF8EncodingSealed.GetBytes(String s)
+   at CryptoMaze.IdentityServer.Program.<>c__DisplayClass0_0.<Main>b__0(JwtBearerOptions options) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\Program.cs:line 31
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsCache`1.<>c__3`1.<GetOrAdd>b__3_0(String name, ValueTuple`2 arg)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd[TArg](TKey key, Func`3 valueFactory, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd[TArg](String name, Func`3 createOptions, TArg factoryArgument)
+   at Microsoft.Extensions.Options.OptionsMonitor`1.Get(String name)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandler`1.InitializeAsync(AuthenticationScheme scheme, HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationHandlerProvider.GetHandlerAsync(HttpContext context, String authenticationScheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.AuthenticateAsync(HttpContext context, String scheme)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-04-28 12:52:02,785 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-04-28 12:52:02,802 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-04-28 12:52:02,812 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-28 12:52:02,815 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-28 12:52:02,818 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-04-28 12:52:33,069 [17] ERROR CryptoMaze.IdentityServer.Controllers.AccountController - Login failed with exception.
+MailKit.Security.AuthenticationException: 534: 5.7.9 Application-specific password required. Learn more at
+5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor e7-20020a170906844700b0094f7b713e40sm10769458ejy.126 - gsmtp
+ ---> MailKit.Net.Smtp.SmtpCommandException: 5.7.9 Application-specific password required. Learn more at
+5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor e7-20020a170906844700b0094f7b713e40sm10769458ejy.126 - gsmtp
+   --- End of inner exception stack trace ---
+   at MailKit.Net.Smtp.SmtpClient.AuthenticateAsync(Encoding encoding, ICredentials credentials, Boolean doAsync, CancellationToken cancellationToken)
+   at EmailService.EmailSender.SendAsync(MimeMessage mailMessage) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\EmailSender.cs:line 94
+   at EmailService.EmailSender.SendAsync(MimeMessage mailMessage) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\EmailSender.cs:line 107
+   at EmailService.EmailSender.SendEmailAsync(Message message) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\EmailService\EmailSender.cs:line 30
+   at CryptoMaze.IdentityServer.BLL.Services.AccountService.Login(String email) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.BLL\Services\AccountService.cs:line 64
+   at CryptoMaze.IdentityServer.Controllers.AccountController.Login(LoginRequest request) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\Controllers\AccountController.cs:line 30
+2023-04-28 13:00:34,733 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-04-28 13:00:34,746 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-04-28 13:00:34,753 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-28 13:00:34,755 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-28 13:00:34,756 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-04-28 13:05:14,287 [13] ERROR CryptoMaze.IdentityServer.Controllers.AccountController - Logout failed with exception.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignatureAndIssuerSecurityKey(String token, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CryptoMaze.IdentityServer.BLL.Services.TokenService.GetPrincipalFromExpiredToken(String token) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.BLL\Services\TokenService.cs:line 55
+   at CryptoMaze.IdentityServer.BLL.Services.AccountService.Logout(String token) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.BLL\Services\AccountService.cs:line 111
+   at CryptoMaze.IdentityServer.Controllers.AccountController.Logout() in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\Controllers\AccountController.cs:line 78
+2023-04-28 13:06:11,870 [13] ERROR CryptoMaze.IdentityServer.Controllers.AccountController - Logout failed with exception.
+Microsoft.IdentityModel.Tokens.SecurityTokenSignatureKeyNotFoundException: IDX10503: Signature validation failed. Token does not have a kid. Keys tried: '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. Number of keys in TokenValidationParameters: '1'. 
+Number of keys in Configuration: '0'. 
+Exceptions caught:
+ '[PII of type 'System.Text.StringBuilder' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII of type 'System.IdentityModel.Tokens.Jwt.JwtSecurityToken' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'. See https://aka.ms/IDX10503 for details.
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignature(String token, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateSignatureAndIssuerSecurityKey(String token, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at CryptoMaze.IdentityServer.BLL.Services.TokenService.GetPrincipalFromExpiredToken(String token) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.BLL\Services\TokenService.cs:line 55
+   at CryptoMaze.IdentityServer.BLL.Services.AccountService.Logout(String token) in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.BLL\Services\AccountService.cs:line 111
+   at CryptoMaze.IdentityServer.Controllers.AccountController.Logout() in C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\Controllers\AccountController.cs:line 78
+2023-04-28 13:27:28,820 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-04-28 13:27:28,839 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-04-28 13:27:28,847 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-28 13:27:28,849 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-28 13:27:28,851 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-04-28 13:32:16,608 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-04-28 13:32:16,625 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-04-28 13:32:16,635 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-28 13:32:16,638 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-28 13:32:16,640 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-04-28 13:36:06,070 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-04-28 13:36:06,088 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-04-28 13:36:06,098 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-28 13:36:06,100 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-28 13:36:06,102 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-04-28 13:37:58,998 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-04-28 13:37:59,037 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-04-28 13:37:59,055 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-04-28 13:37:59,066 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-04-28 13:37:59,069 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-01 11:38:34,463 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-01 11:38:34,477 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-01 11:38:34,485 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-01 11:38:34,489 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-01 11:38:34,491 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-01 11:45:25,324 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-01 11:45:25,341 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-01 11:45:25,350 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-01 11:45:25,354 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-01 11:45:25,356 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-01 11:49:56,538 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-01 11:49:56,559 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-01 11:49:56,571 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-01 11:49:56,574 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-01 11:49:56,575 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-01 11:51:50,307 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-01 11:51:50,321 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-01 11:51:50,329 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-01 11:51:50,331 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-01 11:51:50,332 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-01 11:52:33,317 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-01 11:52:33,331 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-01 11:52:33,339 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-01 11:52:33,341 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-01 11:52:33,343 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-01 11:53:23,919 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-01 11:53:23,935 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-01 11:53:23,943 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-01 11:53:23,945 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-01 11:53:23,947 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-01 15:44:49,507 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-01 15:44:49,521 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-01 15:44:49,528 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-01 15:44:49,531 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-01 15:44:49,534 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-03 12:11:24,526 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-03 12:11:24,542 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-03 12:11:24,550 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-03 12:11:24,552 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-03 12:11:24,554 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-05 14:06:56,456 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-05 14:06:56,472 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-05 14:06:56,483 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-05 14:06:56,486 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-05 14:06:56,487 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\
+2023-05-15 17:24:16,867 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: https://localhost:7008
+2023-05-15 17:24:16,884 [1] INFO Microsoft.Hosting.Lifetime - Now listening on: http://localhost:5014
+2023-05-15 17:24:16,891 [1] INFO Microsoft.Hosting.Lifetime - Application started. Press Ctrl+C to shut down.
+2023-05-15 17:24:16,895 [1] INFO Microsoft.Hosting.Lifetime - Hosting environment: Development
+2023-05-15 17:24:16,897 [1] INFO Microsoft.Hosting.Lifetime - Content root path: C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer\

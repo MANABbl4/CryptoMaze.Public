@@ -1,0 +1,14 @@
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\bin\Debug\net6.0\CryptoMaze.IdentityServer.DAL.deps.json
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\bin\Debug\net6.0\CryptoMaze.IdentityServer.DAL.runtimeconfig.json
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\bin\Debug\net6.0\CryptoMaze.IdentityServer.DAL.dll
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\bin\Debug\net6.0\CryptoMaze.IdentityServer.DAL.pdb
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\CryptoMaze.IdentityServer.DAL.csproj.AssemblyReference.cache
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\CryptoMaze.IdentityServer.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\CryptoMaze.IdentityServer.DAL.AssemblyInfoInputs.cache
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\CryptoMaze.IdentityServer.DAL.AssemblyInfo.cs
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\CryptoMaze.IdentityServer.DAL.csproj.CoreCompileInputs.cache
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\CryptoMaze.IdentityServer.DAL.dll
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\refint\CryptoMaze.IdentityServer.DAL.dll
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\CryptoMaze.IdentityServer.DAL.pdb
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\CryptoMaze.IdentityServer.DAL.genruntimeconfig.cache
+C:\Manab\CryptoMaze\CryptoMaze.IdentityServer\CryptoMaze.IdentityServer.DAL\obj\Debug\net6.0\ref\CryptoMaze.IdentityServer.DAL.dll
